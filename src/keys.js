@@ -1,0 +1,2 @@
+export const SUPABASE_URL = 'https://oepmvxlosraktxbxkwmn.supabase.co'
+export const SUPABASE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im9lcG12eGxvc3Jha3R4Ynhrd21uIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MjU1MDQ4NjIsImV4cCI6MjA0MTA4MDg2Mn0.LzGYPwNXaDxuwVBwFDK3Te0GpyMpT6gupEziQAlJN14'
