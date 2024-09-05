@@ -299,7 +299,7 @@ export default {
       this.currentHue = newProbe
       this.rounds++
       if (this.rounds === MAX_ROUNDS) {
-        this.finalHue = 240 + b
+        this.finalHue = 240 - b
         this.currentHue = this.finalHue
         confetti()
       }
