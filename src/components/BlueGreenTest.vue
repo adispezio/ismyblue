@@ -21,14 +21,14 @@
         />
       </div>
       <div v-if="rounds < MAX_ROUNDS" class="blue-green-test-button-container three-buttons">
-        <button @click="selectColor('blue')" class="blue-green-test-button blue-button grow-button">
+        <button @click="selectColor('green')" class="blue-green-test-button blue-button grow-button">
           This is purple
         </button>
         <button @click="reset" class="blue-green-test-button mid-reset-button grow-button">
           Reset
         </button>
         <button
-          @click="selectColor('green')"
+          @click="selectColor('blue')"
           class="blue-green-test-button green-button grow-button"
         >
           This is blue
