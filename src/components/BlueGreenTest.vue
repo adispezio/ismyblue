@@ -231,7 +231,7 @@ export default {
   data() {
     return {
       MAX_ROUNDS: MAX_ROUNDS,
-      currentHue: Math.random() > 0.5 ? 150 : 210,
+      currentHue: Math.random() > 0.5 ? 210 : 270,
       showInitialMessage: true,
       polarity: 0,
       rounds: 0,
