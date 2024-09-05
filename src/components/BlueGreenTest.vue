@@ -21,17 +21,17 @@
         />
       </div>
       <div v-if="rounds < MAX_ROUNDS" class="blue-green-test-button-container three-buttons">
-        <button @click="selectColor('green')" class="blue-green-test-button blue-button grow-button">
-          This is purple
+        <button @click="selectColor('blue')" class="blue-green-test-button blue-button grow-button">
+          This is blue
         </button>
         <button @click="reset" class="blue-green-test-button mid-reset-button grow-button">
           Reset
         </button>
         <button
-          @click="selectColor('blue')"
+          @click="selectColor('purple')"
           class="blue-green-test-button green-button grow-button"
         >
-          This is blue
+          This is purple
         </button>
       </div>
       <div v-else class="blue-green-test-button-container two-buttons">
@@ -299,7 +299,7 @@ export default {
       this.currentHue = newProbe
       this.rounds++
       if (this.rounds === MAX_ROUNDS) {
-        this.finalHue = 240 - b
+        this.finalHue = 240 + b
         this.currentHue = this.finalHue
         confetti()
       }
