@@ -16,14 +16,15 @@
     <div class="blue-green-test-result-text w-full mt-0 bg-white">
       <p class="result-text">
         <i>Your</i> boundary is at hue {{ Math.round(userThreshold) }},
-        <span v-if="greenInclusive > 0.55">
+        <span v-if="greenInclusive < 0.55">
           bluer than {{ Math.round(greenInclusive * 100) }}% of the population. For <i>you</i>,
           turquoise
           <span class="color-chip mr-1"></span>
           is green.
         </span>
+        <!-- swapped the < and the + -->
         <span v-else-if="greenInclusive < 0.45">
-          greener than {{ Math.round((1 - greenInclusive) * 100) }}% of the population. For
+          greener than {{ Math.round((1 + greenInclusive) * 100) }}% of the population. For
           <i>you</i>, turquoise
           <span class="color-chip mr-1"></span>
           is blue.

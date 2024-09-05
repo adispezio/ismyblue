@@ -260,10 +260,10 @@ export default {
       return `hsl(${this.currentHue}, 100%, 50%)`
     },
     bluerColor() {
-      return `hsl(${this.finalHue + 5}, 100%, 50%)`
-    },
-    greenerColor() {
       return `hsl(${this.finalHue - 5}, 100%, 50%)`
+    },
+    purplerColor() {
+      return `hsl(${this.finalHue + 5}, 100%, 50%)`
     },
     containerStyle() {
       if (this.rounds === MAX_ROUNDS) {
