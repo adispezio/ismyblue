@@ -310,7 +310,7 @@ export default {
     },
     reset() {
       this.anonymousId = this.generateAnonymousId()
-      this.currentHue = Math.random() > 0.5 ? 150 : 210
+      this.currentHue = Math.random() > 0.5 ? 210 : 270
       this.rounds = 0
       this.finalHue = 0
       this.showInitialMessage = true
