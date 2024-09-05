@@ -15,7 +15,7 @@
 a,
 .green {
   text-decoration: none;
-  color: rgb(85, 0, 189);
+  color: purple;
   transition: 0.4s;
   padding: 3px;
 }

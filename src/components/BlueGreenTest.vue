@@ -409,7 +409,7 @@ export default {
   display: inline-block;
   width: 1em;
   height: 1em;
-  background-color: cyan;
+  background-color: purple;
   border: 2px solid black;
   border-radius: 0.2em;
   margin-bottom: -0.2em;
